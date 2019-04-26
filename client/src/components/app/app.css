@@ -1,0 +1,81 @@
+:root {
+  --main-bg: #f7f7fb;
+  --main-text: #000000;
+  --main-desc: #000000;
+  --main-max-width: 710px;
+}
+
+html {
+  background: var(--main-bg);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+#app {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: var(--main-text);
+  max-width: var(--main-max-width);
+  margin: 0 auto;
+}
+
+#menu {
+  display: flex;
+  margin: 30px auto 0;
+  max-width: var(--main-max-width);
+  color: var(--main-desc);
+}
+
+.site-logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.line {
+  max-width: var(--main-max-width);
+  height: 1px;
+  background: var(--main-text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  all: unset;
+  padding: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.post-title {
+  color: var(--main-text);
+}
+
+.post,
+#contact-text {
+  color: var(--main-desc);
+}
+
+input,
+textarea,
+#submit-button {
+  border: 1px solid var(--main-text);
+  background: none;
+  color: var(--main-desc);
+}

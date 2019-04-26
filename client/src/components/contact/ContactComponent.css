@@ -1,0 +1,39 @@
+.container-contact {
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  margin: 5px 0;
+  padding: 2px 2px 2px 5px;
+  font-size: 14px;
+}
+
+#name,
+#email {
+  height: 40px;
+}
+
+#message {
+  padding: 8px 1px 2px 5px;
+  height: 200px;
+  resize: none;
+}
+
+#contact-text,
+#submit-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#submit-button {
+  margin-top: 5px;
+}
