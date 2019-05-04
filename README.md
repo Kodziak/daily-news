@@ -1,5 +1,6 @@
 <h1 style="text-align: center" align="middle">daily-news</h1>
 <h4 style="text-align: center" align="middle">Information website where user/client can follow the newest information from QA world.</h4>
+
 ## Tech used
 
 <b>Designed in:</b>
