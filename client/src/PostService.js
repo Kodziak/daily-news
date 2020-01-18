@@ -5,6 +5,7 @@ const url = "http://localhost:5000/api/posts/";
 class PostService {
   //Get Posts
   static getPosts() {
+    // eslint-disable-next-line no-async-promise-executor
     return new Promise(async (resolve, reject) => {
       try {
         const res = await axios.get(url);

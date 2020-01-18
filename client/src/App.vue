@@ -12,7 +12,14 @@
         >{{btn.name}}</button>
         <button class="button">
           <a
-            href="https://kodziak.github.io/Portfolio/"
+            href="https://floog.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Blog</a>
+        </button>
+        <button class="button">
+          <a
+            href="https://ppaczoski.pl/"
             target="_blank"
             rel="noopener noreferrer"
           >Portfolio</a>
@@ -26,14 +33,12 @@
 
 <script>
 import PostComponent from "./components/post/PostComponent.vue";
-import BlogComponent from "./components/blog/BlogComponent.vue";
 import ContactComponent from "./components/contact/ContactComponent.vue";
 
 export default {
   name: "app",
   components: {
     PostComponent,
-    BlogComponent,
     ContactComponent
   },
   data() {
@@ -41,7 +46,6 @@ export default {
       selectedComponent: "PostComponent",
       btns: [
         { id: 1, name: "Home", component: "PostComponent" },
-        // { id: 2, name: "Blog", component: "BlogComponent" },
         { id: 2, name: "Contact", component: "ContactComponent" }
       ]
     };

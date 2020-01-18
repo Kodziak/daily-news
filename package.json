@@ -10,18 +10,18 @@
   "author": "Przemysław Paczoski",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1",
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "cheerio": "^1.0.0-rc.2",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "mongodb": "^3.1.12",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.1",
     "node-cron": "^2.0.3",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^2.0.2"
   }
 }
